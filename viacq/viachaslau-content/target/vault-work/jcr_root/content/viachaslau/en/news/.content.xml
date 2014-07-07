@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-07-01T12:04:17.253+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/viachaslau/templates/contentpage"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="News"
+        sling:resourceType="viachaslau/components/contentpage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <topnav_1
+                jcr:created="{Date}2014-06-30T10:10:16.796+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-06-30T10:10:16.796+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="viachaslau/components/topnav"/>
+            <topnav
+                jcr:created="{Date}2014-06-27T16:34:03.793+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-06-27T16:37:25.371+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="viachaslau/components/topnav"/>
+        </par>
+        <topnav
+            jcr:lastModified="{Date}2014-07-01T12:04:17.252+03:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="viachaslau/components/topnav"/>
+    </jcr:content>
+    <all/>
+    <features/>
+    <official/>
+    <production/>
+    <career/>
+</jcr:root>

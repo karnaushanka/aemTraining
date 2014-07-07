@@ -1,0 +1,78 @@
+/* general */
+body  {
+    margin: 0;
+    background: white;
+    color: black;
+}
+
+#CQ div.topnav div.first_level_menu {
+    font-family: 'Verdana',Verdana,serif;
+    padding-left: 20px;
+    background-color: #0C1222;
+    height: 60px;
+}
+
+#CQ div.topnav ul.first_level a {
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+	color: white;
+    height:60px;
+	line-height:60px;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#CQ div.topnav li.list_item_first_level {
+    font-weight: bold;
+    float:left;
+}
+
+#CQ div.topnav ul.first_level{
+margin: 0 auto;
+padding-left: 0px;
+list-style: none;
+}
+
+#CQ div.topnav li.list_item_first_level:hover {
+height:60px;
+background-color:#222F27;
+}
+
+
+#CQ div.topnav div.second_level_menu {
+width: 100%;
+float: left;
+background-color: #f3f3f3;
+
+}
+
+#CQ div.topnav ul.second_level{
+margin: 0 auto;
+padding-left: 100px;
+list-style: none;
+       font-family: 'Verdana',Verdana,serif;
+font-size: 12px;
+background-color: #FFF;
+height: auto!important;
+min-height: 100%;
+height: 100%;
+position: relative;
+}
+
+#CQ div.topnav li.list_item_second_level {
+    font-weight: bold;
+    float:left;
+}
+
+#CQ div.topnav ul.second_level a {
+    font-size: 13px;
+    text-decoration: none;
+	color: #484747;
+    height:30px;
+	line-height:40px;
+    text-align: center;
+    padding: 0 25px;
+}
+
+

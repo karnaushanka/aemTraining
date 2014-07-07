@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-all/viachaslau-all.iml" filepath="$PROJECT_DIR$/viachaslau-all/viachaslau-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-config/viachaslau-config.iml" filepath="$PROJECT_DIR$/viachaslau-config/viachaslau-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-content/viachaslau-content.iml" filepath="$PROJECT_DIR$/viachaslau-content/viachaslau-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-services/viachaslau-services.iml" filepath="$PROJECT_DIR$/viachaslau-services/viachaslau-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-taglib/viachaslau-taglib.iml" filepath="$PROJECT_DIR$/viachaslau-taglib/viachaslau-taglib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viachaslau-view/viachaslau-view.iml" filepath="$PROJECT_DIR$/viachaslau-view/viachaslau-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viacq.iml" filepath="$PROJECT_DIR$/viacq.iml" />
+    </modules>
+  </component>
+</project>
+

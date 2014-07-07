@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="EditComponent"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <news
+                jcr:primaryType="cq:Panel"
+                title="News">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <rootpath
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Root path"
+                        name="/content/viachaslau/en/news"
+                        xtype="pathfield"/>
+                    <secondmenu
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Second level menu"
+                        name="./title"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            name="/content/viachaslau/en/news/all"
+                            xtype="pathfield"/>
+                    </secondmenu>
+                </items>
+            </news>
+            <events
+                jcr:primaryType="cq:Panel"
+                title="Events">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <rootpath
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Root path"
+                        name="/content/viachaslau/en/news"
+                        xtype="pathfield"/>
+                    <secondmenu
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Second level menu"
+                        name="./title"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            name="/content/viachaslau/en/news/all"
+                            xtype="pathfield"/>
+                    </secondmenu>
+                </items>
+            </events>
+        </items>
+    </items>
+</jcr:root>
